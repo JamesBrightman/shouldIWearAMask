@@ -1,4 +1,6 @@
 body {
+    overflow-x: hidden;
+    overflow-y: hidden;
     background-color: #1e2a3a;
 }
 
@@ -9,9 +11,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
-    overflow-y: hidden;
+}
+
+.text {
     font-family: Hammersmith One;
-    font-size: 256px;
+    font-size: 30vw;
     color: white;
 }

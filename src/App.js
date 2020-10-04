@@ -3,12 +3,9 @@ import './App.css';
 
 function App() {
     return (
-        <>
-            <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Hammersmith+One"/>
-            <div className="main">
-                Yes.
-            </div>
-        </>
+        <div className="main">
+            <div className="text">Yes.</div>
+        </div>
     );
 }
 
