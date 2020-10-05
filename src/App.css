@@ -1,7 +1,7 @@
 body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+    -ms-overflow-style: none;
     background-color: #1e2a3a;
+    height: 1500px;
 }
 
 .main {
@@ -13,7 +13,22 @@ body {
     justify-content: center;
 }
 
+.mask {
+    /*height: 2000px;*/
+}
+
+.maskImg {
+    width: 70%;
+    position: fixed;
+    margin-top: 5%;
+}
+
+body::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
 .text {
+    position: fixed;
     font-family: Hammersmith One;
     font-size: 25vw;
     color: white;
